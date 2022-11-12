@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package com.NumeralKart.pantPrinc;
+
 import java.awt.BorderLayout;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
@@ -17,6 +18,7 @@ public class main extends javax.swing.JFrame {
      * Creates new form dashboard
      */
     public main() {
+        
         initComponents();
         
         Home h1 = new Home();
@@ -28,6 +30,7 @@ public class main extends javax.swing.JFrame {
         content.revalidate();
         content.repaint();     
      
+        
         
     }
     
@@ -57,10 +60,10 @@ public class main extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(1000, 600));
         getContentPane().setLayout(new java.awt.CardLayout());
 
-        background.setBackground(new java.awt.Color(255, 255, 255));
+        background.setBackground(new java.awt.Color(153,153,255));
         background.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        content.setBackground(new java.awt.Color(255, 255, 255));
+        content.setBackground(new java.awt.Color(153,153,255));
 
         javax.swing.GroupLayout contentLayout = new javax.swing.GroupLayout(content);
         content.setLayout(contentLayout);
@@ -100,13 +103,13 @@ public class main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(dashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(dashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(dashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(dashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 

@@ -137,6 +137,7 @@ public class Home extends javax.swing.JPanel {
         content.add(modes, BorderLayout.CENTER);
         content.revalidate();
         content.repaint(); 
+        
     }                                        
 
 
